@@ -1,0 +1,49 @@
+.nav__logo {
+    width: 120px;
+}
+.nav__list {
+    padding-right: 20px;
+}
+.nav__list li a {
+    font-size: 1.8rem;
+}
+.titulo {
+    font-size: 2.4rem;
+    padding: 30px;
+}
+.c1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.c1 img {
+    width: 75%;
+    margin: 0;
+}
+.c2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: blue;
+}
+.c2 p {
+    color: aliceblue;
+    text-align: justify;
+}
+.c3 {
+    background-color: aliceblue;
+}
+.c3 .card {
+    background-color: blue;
+    width: 40%;
+}
+.c3 .card p {
+    color: aliceblue;
+}
+.c4 {
+    justify-content: space-evenly;
+}
+.c4 .card2 {
+    width: 40%;
+    margin: 4vh;
+}

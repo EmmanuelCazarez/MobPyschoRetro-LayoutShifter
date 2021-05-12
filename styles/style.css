@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.nav__logo {
+    width: 100px;
+    padding: 8px;
+}
+.nav__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.nav__list li {
+    padding: 5px;
+}
+.nav__list li a {
+    text-decoration: none;
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+.nav__list li:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.c1 {
+    background-color: blue;
+}
+.c1 figure {
+    display: flex;
+    justify-content: center;
+}
+.c1 img {
+    width: 50%;
+    margin: 15px;
+}
+.c2 {
+    padding: 15px;
+}
+.c2 p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.c3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: blue;
+    padding: 4vh;
+}
+.c3 .card {
+    width: 75%;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding: 4vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.c3 .card p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.aside {
+    width: 100%;
+}
+.c4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.c4 .titulo2 {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+}
+.c4 .card2 {
+    width: 60%;
+    background-color: blueviolet;
+    margin: 5vw;
+}
+.c4 .card2 h1 {
+    text-align: center;
+    padding: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+.c4 .card2 img {
+    width: 40%;
+    float: left;
+    padding: 2vw;
+}
+.c4 .card2 p {
+    padding: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(120, 40, 140);
+}
+.footer figure {
+    display: flex;
+    padding: 1vh 1vw;
+}
+.footer img {
+    width: 10vh;
+}
+.footer p {
+    margin: 1.5vh 1vw;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
